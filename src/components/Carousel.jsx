@@ -29,7 +29,7 @@ function Carousel({ data, onClick }) {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="w-full max-w-[90%] pb-12 lg:max-w-[80%]" // Ensure swiper takes up enough space
+        className="w-full max-w-[90%] pb-12 lg:max-w-[80%]"
       >
         {data.map((item) => (
           <SwiperSlide key={item.name} onClick={() => onClick(item.name)}>
