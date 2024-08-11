@@ -4,7 +4,7 @@ import banner from "../../public/bannerImg.svg";
 function LandingBody() {
   return (
     <section id="landing">
-      <div className="flex h-screen flex-wrap items-center justify-between p-5 text-white sm:p-20">
+      <div className="flex h-screen flex-wrap items-center justify-between gap-3 p-5 text-white sm:gap-0 sm:p-20">
         <div className="w-2/3 sm:w-1/2">
           <p className="mb-3 sm:mb-10">
             <span className="mb-2 border border-gray-100 bg-custom-gradient px-1 py-3 font-mono text-sm sm:px-3 sm:py-5 sm:text-4xl">
@@ -30,7 +30,7 @@ function LandingBody() {
             </span>
           </button>
         </div>
-        <div className="w-1/3 text-center">
+        <div className="w-1/4 text-center">
           <img src={banner} className="animate-updown" alt="bannerLogo" />
         </div>
       </div>
