@@ -3,13 +3,14 @@ import LandingBody from "../components/LandingBody";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import bg from "../../public/banner-bg.png";
 
 function Landing() {
   return (
     <div className="relative">
       <div
         className="absolute inset-0 h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/img/banner-bg.png')" }}
+        style={{ backgroundImage: `url(${bg})` }}
       ></div>
 
       <div className="relative z-10">
