@@ -12,8 +12,7 @@ function Landing() {
         style={{ backgroundImage: "url('/src/img/banner-bg.png')" }}
       ></div>
 
-      {/* Content */}
-      <div className="relative z-10 p-4">
+      <div className="relative z-10">
         <Header />
         <div className="h-screen overflow-y-auto">
           <LandingBody />
