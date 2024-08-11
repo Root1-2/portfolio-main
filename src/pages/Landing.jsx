@@ -6,12 +6,20 @@ import Contact from "../components/Contact";
 
 function Landing() {
   return (
-    <div>
-      <Header />
-      <LandingBody />
-      <Skills />
-      <Projects />
-      <Contact />
+    <div className="relative">
+      <div
+        className="absolute inset-0 h-screen bg-cover bg-center"
+        style={{ backgroundImage: "url('/src/img/banner-bg.png')" }}
+      ></div>
+
+      {/* Content */}
+      <div className="relative z-10 p-4">
+        <Header />
+        <LandingBody />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }

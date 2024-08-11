@@ -1,5 +1,5 @@
 function LandingBody() {
-  return <div>Landing Body</div>;
+  return <section id="landing">Landing Body</section>;
 }
 
 export default LandingBody;
