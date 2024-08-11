@@ -3,7 +3,7 @@ import { CiCircleChevRight } from "react-icons/ci";
 function LandingBody() {
   return (
     <section id="landing">
-      <div className="flex h-screen flex-wrap items-center justify-between p-10 text-white">
+      <div className="flex h-screen flex-wrap items-center justify-between p-5 text-white sm:p-20">
         <div className="w-1/2">
           <p className="mb-3 sm:mb-10">
             <span className="bg-custom-gradient mb-2 border border-gray-100 px-1 py-3 font-mono text-sm sm:px-3 sm:py-5 sm:text-4xl">
@@ -30,7 +30,11 @@ function LandingBody() {
           </button>
         </div>
         <div className="w-1/3 text-center">
-          <img src="src/img/bannerImg.svg" alt="bannerLogo" />
+          <img
+            src="src/img/bannerImg.svg"
+            className="animate-updown"
+            alt="bannerLogo"
+          />
         </div>
       </div>
     </section>
