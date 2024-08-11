@@ -15,10 +15,12 @@ function Landing() {
       {/* Content */}
       <div className="relative z-10 p-4">
         <Header />
-        <LandingBody />
-        <Skills />
-        <Projects />
-        <Contact />
+        <div className="h-screen overflow-y-auto">
+          <LandingBody />
+          <Skills />
+          <Projects />
+          <Contact />
+        </div>
       </div>
     </div>
   );
