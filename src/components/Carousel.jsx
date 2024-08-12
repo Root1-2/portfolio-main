@@ -4,41 +4,28 @@ import skills from "../list/skills";
 
 function Carousel() {
   const settings = {
+    className: "center",
+    centerMode: true,
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 6,
     slidesToScroll: 3,
-    centerPadding: "20px",
-    centerMode: true,
+    initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     variableWidth: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
   };
-
   return (
-    <div className="carousel-container">
+    <div className="gap-10">
       <Slider {...settings}>
         {skills.map((skill, index) => (
-          <div key={index} className="">
-            <img src={skill.imgPath} className="w-56" alt={skill.name} />
-            <p className="text-lg">{skill.name}</p>
+          <div key={index} className="gap-10">
+            <div>
+              <img src={skill.imgPath} className="w-52" alt={skill.name} />
+            </div>
+            <p className="mt-5 text-center">{skill.name}</p>
           </div>
         ))}
       </Slider>
