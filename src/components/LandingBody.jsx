@@ -1,5 +1,5 @@
 import { CiCircleChevRight } from "react-icons/ci";
-import banner from "../../public/bannerImg.svg";
+import banner from "/bannerImg.svg";
 
 function LandingBody() {
   return (

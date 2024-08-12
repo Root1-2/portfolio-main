@@ -3,7 +3,7 @@ import LandingBody from "../components/LandingBody";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
-import bg from "../../public/banner-bg.png";
+import bg from "/banner-bg.png";
 
 function Landing() {
   return (
