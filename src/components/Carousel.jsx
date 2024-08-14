@@ -15,7 +15,7 @@ function Carousel() {
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    variableWidth: true,
+    // variableWidth: true,
   };
   return (
     <div className="gap-10">

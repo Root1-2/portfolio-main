@@ -3,7 +3,7 @@ import projects from "../list/projects";
 function Projects() {
   return (
     <section id="projects">
-      <div className="mx-24 h-screen pt-20 text-white">
+      <div className="mx-10 h-screen pt-20 text-white sm:mx-24">
         <div className="rounded-lg bg-neutral-900 px-8 py-5">
           <p className="text-center text-4xl font-semibold text-slate-100">
             Projects
