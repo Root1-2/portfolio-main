@@ -21,7 +21,7 @@ function Projects() {
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-slate-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
                   <p className="text-2xl font-semibold">{project.name}</p>
-                  <p className="text-base">{project.tools}</p>
+                  <p className="mt-2 text-center text-base">{project.tools}</p>
                 </div>
               </div>
             ))}
