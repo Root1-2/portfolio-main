@@ -12,10 +12,16 @@ function Projects() {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="h-44 w-80 rounded-lg bg-purple-400 p-5"
+                className="group relative h-44 w-80 scale-90 transform rounded-lg bg-gradient-to-r from-purple-500 to-indigo-600 transition duration-300 ease-in-out hover:scale-100 hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-700"
               >
-                <p>{project.name}</p>
-                <p>{project.description}</p>
+                <img
+                  src={project.thumbnail}
+                  className="absolute left-0 top-0 h-full w-full rounded-lg object-cover transition-opacity duration-300 ease-in-out group-hover:opacity-50"
+                  alt={project.name}
+                />
+                <p className="absolute inset-0 flex items-center justify-center text-2xl font-semibold text-slate-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+                  {project.name}
+                </p>
               </div>
             ))}
           </div>

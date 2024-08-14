@@ -1,13 +1,15 @@
 const projects = [
   {
+    id: "1",
     name: "Forumium",
-    thumbnail: "/dummy",
+    thumbnail: "/projectThumbnail/Forumium.png",
     description: "Lorem Ispum",
     github: "link",
     live: "link",
     screenshots: "imgPath",
   },
   {
+    id: "2",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -16,6 +18,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "3",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -24,6 +27,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "4",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -32,6 +36,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "5",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -40,6 +45,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "6",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -48,6 +54,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "7",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -56,6 +63,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "8",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -64,6 +72,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "9",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -72,6 +81,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "10",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -80,6 +90,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "11",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -88,6 +99,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "12",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -96,6 +108,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "13",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
@@ -104,6 +117,7 @@ const projects = [
     screenshots: "imgPath",
   },
   {
+    id: "14",
     name: "Fast Pizza",
     thumbnail: "/dummy",
     description: "Ipsum Lorem",
