@@ -1,5 +1,8 @@
+import { useParams } from "react-router-dom";
+
 function Project() {
-  return <div>Project</div>;
+  let { id } = useParams();
+  return <div>Project with ID</div>;
 }
 
 export default Project;
