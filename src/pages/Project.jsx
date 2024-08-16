@@ -1,9 +1,16 @@
 import { useParams } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { LuMonitorPlay } from "react-icons/lu";
 import bg from "/banner-bg.png";
 import Header from "../components/Header";
+import projects from "../list/projects";
 
 function Project() {
   let { id } = useParams();
+
+  const project = projects.find((project) => project.id === id);
+
+  console.log(project);
   return (
     <div className="relative">
       <div
@@ -15,18 +22,44 @@ function Project() {
           <div className="mx-52">
             <div className="mb-5 flex justify-between">
               <div className="flex">
-                <div className="h-44 w-80 bg-red-400"></div>
+                <div className="h-44 w-80 rounded-lg">
+                  <img
+                    src={project.thumbnail}
+                    className="h-full w-full rounded-lg object-cover"
+                    alt=""
+                  />
+                </div>
                 <div className="ms-10">
-                  <p className="mb-2 text-3xl font-semibold text-slate-200">
-                    Project Name
+                  <p className="mb-2 text-4xl font-semibold text-slate-300">
+                    {project.name}
                   </p>
-                  <p className="mb-2 text-2xl text-slate-100">Project Tools</p>
-                  <p>Project Links</p>
+                  <p className="mb-4 text-xl text-slate-100">{project.tools}</p>
+                  <p className="text-xl">Created: {project.created}</p>
+                  <div className="mt-5 flex gap-5">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithub title="GitHub" size={30} />
+                    </a>
+
+                    {project.live && (
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <LuMonitorPlay title="Live" size={30} />
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
               <div>
-                <p>Project Created</p>
-                <p>Project Type</p>
+                <p className="rounded-full bg-cyan-950 px-5 py-3 text-xl font-semibold text-slate-100">
+                  {project.type}
+                </p>
               </div>
             </div>
 
@@ -37,10 +70,7 @@ function Project() {
                 Description
               </p>
               <p className="mt-5 text-xl text-slate-100">
-                Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
-                IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-                Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
-                IpsumLorem Ipsum
+                {project.description}
               </p>
               <p className="mt-10 text-4xl font-semibold text-slate-200">
                 Features

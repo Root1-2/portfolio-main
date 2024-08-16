@@ -1,3 +1,6 @@
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 import Header from "../components/Header";
 import LandingBody from "../components/LandingBody";
 import Skills from "../components/Skills";
@@ -6,6 +9,17 @@ import Contact from "../components/Contact";
 import bg from "/banner-bg.png";
 
 function Landing() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <div className="relative">
       <div
