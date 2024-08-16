@@ -1,9 +1,9 @@
-// import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import bg from "/banner-bg.png";
 import Header from "../components/Header";
 
 function Project() {
-  // let { id } = useParams();
+  let { id } = useParams();
   return (
     <div className="relative">
       <div
