@@ -33,7 +33,23 @@ function Project() {
             <div className="border-b border-gray-600"></div>
 
             <div className="mt-5">
-              <p className="text-4xl font-semibold">Description</p>
+              <p className="text-4xl font-semibold text-slate-200">
+                Description
+              </p>
+              <p className="mt-5 text-xl text-slate-100">
+                Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
+                IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+                Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
+                IpsumLorem Ipsum
+              </p>
+              <p className="mt-10 text-4xl font-semibold text-slate-200">
+                Features
+              </p>
+              <p>Features List</p>
+              <p className="mt-10 text-4xl font-semibold text-slate-200">
+                Screenshots
+              </p>
+              <p>Screenshots</p>
             </div>
           </div>
         </div>
