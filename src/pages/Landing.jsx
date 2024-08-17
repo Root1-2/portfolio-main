@@ -31,7 +31,7 @@ function Landing() {
         <Header />
         <div className="h-screen overflow-y-auto">
           <LandingBody />
-          <Skills />
+          {/* <Skills /> */}
           <Projects />
           <Contact />
         </div>
