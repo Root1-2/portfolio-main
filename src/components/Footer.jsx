@@ -1,40 +1,43 @@
+import icon from "/icon.png";
+import { IoDocumentsOutline } from "react-icons/io5";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 function Footer() {
   return (
     <footer class="rounded-lg bg-gray-900">
       <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <a
-            href="https://flowbite.com/"
+            href="#landing"
             class="mb-4 flex items-center space-x-3 sm:mb-0 rtl:space-x-reverse"
           >
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8"
-              alt="Flowbite Logo"
-            />
+            <img src={icon} class="h-8 pt-2" alt="Logo" />
             <span class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-              Flowbite
+              Portfolio
             </span>
           </a>
-          <ul class="mb-6 flex flex-wrap items-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <ul class="mb-6 flex flex-wrap items-center gap-5 text-sm font-medium text-gray-400 sm:mb-0">
             <li>
-              <a href="#" class="me-4 hover:underline md:me-6">
-                About
+              <a href="https://github.com/Root1-2" class="me-4 md:me-6">
+                <FaGithub title="GitHub Profile" size={30} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/abdullah-al-masrur-839000222/"
+                class="me-4 hover:underline md:me-6"
+              >
+                <FaLinkedinIn title="LinkedIn Profile" size={30} />
+              </a>
+            </li>
+            <li>
+              <a href="/CV.pdf" class="me-4 hover:underline md:me-6">
+                <IoDocumentsOutline title="CV" size={30} />
               </a>
             </li>
             <li>
               <a href="#" class="me-4 hover:underline md:me-6">
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a href="#" class="me-4 hover:underline md:me-6">
-                Licensing
-              </a>
-            </li>
-            <li>
-              <a href="#" class="hover:underline">
-                Contact
+                <FaGithub size={30} />
               </a>
             </li>
           </ul>
@@ -43,7 +46,7 @@ function Footer() {
         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{" "}
           <a href="https://flowbite.com/" class="hover:underline">
-            Flowbite™
+            Portfolio
           </a>
           . All Rights Reserved.
         </span>
