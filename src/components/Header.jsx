@@ -11,10 +11,6 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
-
   const openDropdown = () => {
     setIsDropdownOpen(true);
   };
