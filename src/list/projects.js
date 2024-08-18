@@ -56,7 +56,7 @@ const projects = [
       "Designed and developed a forum application using HTML, CSS + Bootstrap, JavaScript, PHP, MYSQL enabling users to create posts, comments, profiles and building communities.",
     github: "https://github.com/Root1-2/Forumium-Final",
     // live: "link",
-    screenshots: `${projectPath}forum1.png|${projectPath}forum2.png|${projectPath}forum3.png|${projectPath}forum4.png|${projectPath}forum5.png|${projectPath}forum6.png|`,
+    screenshots: `${projectPath}forum1.png|${projectPath}forum2.png|${projectPath}forum3.png|${projectPath}forum4.png|${projectPath}forum5.png|${projectPath}forum6.png`,
     created: "July 28th, 2023",
     features:
       "User Authentication/Browser Posts/Search Posts/Filter Posts/Create Post/Reply to posts/Edit or Delete Posts/",
@@ -71,7 +71,7 @@ const projects = [
       "Designed and developed a consultancy application using HTML, CSS + Bootstrap, JavaScript, PHP, MYSQL enabling user to search courses, create applications for university enrollment, creating profile.",
     github: "https://github.com/aimanazadkhan/Nextsteps",
     // live: "link",
-    screenshots: `${projectPath}next1.png|${projectPath}next2.png|${projectPath}next3.png|${projectPath}next4.png|${projectPath}next5.png|${projectPath}next6.png|${projectPath}next7.png|`,
+    screenshots: `${projectPath}next1.png|${projectPath}next2.png|${projectPath}next3.png|${projectPath}next4.png|${projectPath}next5.png|${projectPath}next6.png|${projectPath}next7.png`,
     created: "Work in Progress",
     features:
       "User Authentication/Admin Authentication/Search Courses/Enroll Courses/Create Profile/Admin Panel/Sub-Admin Panel",
@@ -86,8 +86,9 @@ const projects = [
       "Programmed a web authentication system, designed using HTML, CSS + Bootstrap, JavaScript, PHP, MYSQL, comprised of Login, Registration with email verification (PHPMailer), Admin Panel.",
     github: "https://github.com/Root1-2/Web-Authentication",
     // live: "link",
-    screenshots: "imgPath",
+    screenshots: `${projectPath}webAuth1.png|${projectPath}webAuth2.png|${projectPath}webAuth3.png|${projectPath}webAuth4.png|${projectPath}webAuth5.png|`,
     created: "Work in Progress",
+    features: "User Authenticaion/User Verification from Email/Admin Approval",
   },
   {
     id: "7",
@@ -101,6 +102,8 @@ const projects = [
     // live: "link",
     screenshots: "imgPath",
     created: "February 27th, 2023",
+    features:
+      "User Authentication/Blood Bank/Doctor Appointment/Ambulance Caller/Medicine Reminder/Profile Create",
   },
   {
     id: "8",
@@ -108,11 +111,13 @@ const projects = [
     thumbnail: "/projectThumbnail/androidAuth.jpg",
     tools: "Flutter, Dart, Firebase",
     type: "Full Stack",
-    description: "Ipsum Lorem",
+    description:
+      "Programmed a android authentication system, build using Flutter, Dart & Firebase comprised of Login, Registration with email verification.",
     github: "link",
     // live: "link",
     screenshots: "imgPath",
     created: "March 10th, 2023",
+    features: "Login/Registration/Change Password",
   },
   {
     id: "9",
@@ -124,8 +129,10 @@ const projects = [
       "This project aims to develop a user-friendly management system for our university's canteen, addressing the lack of an existing system. The goal is to streamline operations by allowing staff to efficiently track inventory and generate bills with minimal effort, ultimately reducing manual labor and improving overall management.",
     github: "https://github.com/Root1-2/CanteenSystem/tree/main/CanteenSystem",
     // live: "link",
-    screenshots: "imgPath",
+    screenshots: `${projectPath}canteen1.png|${projectPath}canteen2.png|${projectPath}canteen3.png|${projectPath}canteen4.png|${projectPath}canteen5.png|${projectPath}canteen6.png`,
     created: "February 10th, 2022",
+    features:
+      "User Authentication/Browse Food/Food Order/Create Receipt/Manage Stuff",
   },
 ];
 
