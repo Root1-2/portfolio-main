@@ -1,9 +1,11 @@
 import { useState } from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { IoDocumentsOutline } from "react-icons/io5";
 import icon from "/icon.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -11,6 +13,14 @@ function Header() {
 
   const closeMenu = () => {
     setIsOpen(false);
+  };
+
+  const openDropdown = () => {
+    setIsDropdownOpen(true);
+  };
+
+  const closeDropdown = () => {
+    setIsDropdownOpen(false);
   };
 
   return (
@@ -43,7 +53,6 @@ function Header() {
             <li>
               <a
                 href="/#landing"
-                onClick={closeMenu}
                 className="block rounded bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-blue-700 dark:text-white md:dark:text-blue-500"
                 aria-current="page"
               >
@@ -53,7 +62,6 @@ function Header() {
             <li>
               <a
                 href="/#skills"
-                onClick={closeMenu}
                 className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
               >
                 Skills
@@ -62,20 +70,59 @@ function Header() {
             <li>
               <a
                 href="/#projects"
-                onClick={closeMenu}
                 className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
               >
                 Projects
               </a>
             </li>
-            <li>
+            <li className="relative" onMouseEnter={openDropdown}>
               <a
                 href="/#contacts"
-                onClick={closeMenu}
+                onClick={closeDropdown}
                 className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
               >
                 Contacts
               </a>
+              {isDropdownOpen && (
+                <ul
+                  onMouseLeave={closeDropdown}
+                  className="absolute right-0 mt-3 flex space-x-5 rounded-lg bg-white p-4 shadow-lg dark:bg-gray-800"
+                >
+                  <li>
+                    <a
+                      href="https://github.com/Root1-2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-2 text-gray-700 dark:text-gray-200"
+                    >
+                      <FaGithub size={30} />
+                      <span>GitHub</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/abdullah-al-masrur-839000222/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-2 text-gray-700 dark:text-gray-200"
+                    >
+                      <FaLinkedinIn size={30} />
+                      <span>LinkedIn</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/CV.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-2 text-gray-700 dark:text-gray-200"
+                    >
+                      <IoDocumentsOutline size={30} />
+                      <span>CV</span>
+                    </a>
+                  </li>
+                </ul>
+              )}
             </li>
           </ul>
         </div>
