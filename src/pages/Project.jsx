@@ -91,7 +91,7 @@ function Project() {
               <p className="mt-10 text-4xl font-semibold text-slate-200 underline underline-offset-4">
                 Screenshots
               </p>
-              <div className="flex w-full gap-5 overflow-x-auto">
+              <div className="scrollbar scrollbar-thumb-rounded scrollbar-thumb-gray-900 scrollbar-track-gray-100 scrollbar-show flex w-full gap-5 overflow-x-auto">
                 {screenshots.map((screenshot, index) => (
                   <img
                     src={screenshot}
