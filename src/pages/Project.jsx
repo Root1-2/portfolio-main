@@ -10,11 +10,13 @@ function Project() {
 
   const project = projects.find((project) => project.id === id);
 
-  console.log(project);
+  const features = projects[id - 1].features.split("/");
+  const screenshots = projects[id - 1].screenshots.split("|");
+  console.log(screenshots);
   return (
     <div className="relative">
       <div
-        className="absolute inset-0 h-screen bg-cover bg-center"
+        className="absolute inset-0 h-screen overflow-y-auto bg-cover bg-center"
         style={{ backgroundImage: `url(${bg})` }}
       >
         <Header />
@@ -66,20 +68,39 @@ function Project() {
             <div className="border-b border-gray-600"></div>
 
             <div className="mt-5">
-              <p className="text-4xl font-semibold text-slate-200">
+              <p className="text-4xl font-semibold text-slate-200 underline underline-offset-4">
                 Description
               </p>
               <p className="mt-5 text-xl text-slate-100">
                 {project.description}
               </p>
-              <p className="mt-10 text-4xl font-semibold text-slate-200">
+              <p className="mb-3 mt-10 text-4xl font-semibold text-slate-200 underline underline-offset-4">
                 Features
               </p>
-              <p>Features List</p>
-              <p className="mt-10 text-4xl font-semibold text-slate-200">
+              <ul className="ms-6 flex list-disc flex-wrap">
+                {features.map((feature, index) => (
+                  <li
+                    key={index}
+                    className="mb-2 w-1/4 text-2xl text-slate-200"
+                  >
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+
+              <p className="mt-10 text-4xl font-semibold text-slate-200 underline underline-offset-4">
                 Screenshots
               </p>
-              <p>Screenshots</p>
+              <div className="flex w-full gap-5 overflow-x-auto">
+                {screenshots.map((screenshot, index) => (
+                  <img
+                    src={screenshot}
+                    alt=""
+                    className="mt-5 w-96"
+                    key={index}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </div>

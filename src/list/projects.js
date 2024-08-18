@@ -1,3 +1,5 @@
+const projectPath = "/projectScreenshot/";
+
 const projects = [
   {
     id: "1",
@@ -9,8 +11,10 @@ const projects = [
       "Designed and developed a forum application using React, Tailwind CSS, Supabase Database and many react libraries. enabling users to create posts, comments, profiles and building communities.",
     github: "https://github.com/Root1-2/Forumium-React-Version-",
     live: "https://forumium.vercel.app/",
-    screenshots: "imgPath",
+    screenshots: `${projectPath}forumium1.png|${projectPath}forumium2.png|${projectPath}forumium3.png|${projectPath}forumium4.png|${projectPath}forumium5.png|${projectPath}forumium6.png`,
     created: "August 7th, 2024",
+    features:
+      "User Authentication/Creating a Post/Replying to post/Editing a post/Deleting a post/Edit replies/Delete replies",
   },
   {
     id: "2",
@@ -24,6 +28,8 @@ const projects = [
     live: "https://foodfastpizza.vercel.app/",
     screenshots: "imgPath",
     created: "July 27th, 2024",
+    features:
+      "Username for login/Search Pizzas/Cart/Confirm Order from Cart/Order form/Search order from Order ID",
   },
   {
     id: "3",
