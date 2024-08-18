@@ -26,10 +26,10 @@ const projects = [
       "Developed a pizza ordering system using React, Tailwind CSS and many React Libraries includes Cart System, searching order, creating a temporary account, filtered pizza menus.",
     github: "https://github.com/Root1-2/Fast-React-Pizza",
     live: "https://foodfastpizza.vercel.app/",
-    screenshots: "imgPath",
+    screenshots: `${projectPath}pizza1.png|${projectPath}pizza2.png|${projectPath}pizza3.png|${projectPath}pizza4.png|${projectPath}pizza5.png|`,
     created: "July 27th, 2024",
     features:
-      "Username for login/Search Pizzas/Cart/Confirm Order from Cart/Order form/Search order from Order ID",
+      "Username for login/Search Pizzas/Cart/Confirm Order from Cart/Order form/Search order from Order ID/Quantity Manage",
   },
   {
     id: "3",
@@ -41,8 +41,10 @@ const projects = [
       "Developed a comprehensive medical system using HTML, CSS + Bootstrap, JavaScript, PHP, MYSQL includes Doctor Appointment, Blood Bank, E-Pharmacy, Self-Diagnosis & Admin Panel.",
     github: "https://github.com/Root1-2/NexusHealth/tree/main/NexusHealth",
     // live: "link",
-    screenshots: "imgPath",
+    screenshots: `${projectPath}nexus1.png|${projectPath}nexus2.png|${projectPath}nexus3.png|${projectPath}nexus4.png|${projectPath}nexus5.png|${projectPath}nexus6.png|${projectPath}nexus7.png|${projectPath}nexus8.png|${projectPath}nexus9.png|${projectPath}nexus10.png|${projectPath}nexus11.png|${projectPath}nexus12.png|${projectPath}nexus13.png|${projectPath}nexus14.png`,
     created: "February 28th, 2024",
+    features:
+      "User Authentication/Forgot Password/Doctor Appointment/Blood Bank/Self-Diagnosis/Med-Corner/E-Pharmacy/Payment Methods/Creating Profile",
   },
   {
     id: "4",
@@ -56,6 +58,7 @@ const projects = [
     // live: "link",
     screenshots: "imgPath",
     created: "July 28th, 2023",
+    features: "",
   },
   {
     id: "5",
