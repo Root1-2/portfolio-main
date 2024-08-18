@@ -44,7 +44,7 @@ const projects = [
     screenshots: `${projectPath}nexus1.png|${projectPath}nexus2.png|${projectPath}nexus3.png|${projectPath}nexus4.png|${projectPath}nexus5.png|${projectPath}nexus6.png|${projectPath}nexus7.png|${projectPath}nexus8.png|${projectPath}nexus9.png|${projectPath}nexus10.png|${projectPath}nexus11.png|${projectPath}nexus12.png|${projectPath}nexus13.png|${projectPath}nexus14.png`,
     created: "February 28th, 2024",
     features:
-      "User Authentication/Forgot Password/Doctor Appointment/Blood Bank/Self-Diagnosis/Med-Corner/E-Pharmacy/Payment Methods/Creating Profile",
+      "User Authentication/Forgot Password/Doctor Appointment/Blood Bank/Self-Diagnosis/Med-Corner/E-Pharmacy/Payment Methods/Creating Profile/Admin Panel for Management",
   },
   {
     id: "4",
@@ -56,9 +56,10 @@ const projects = [
       "Designed and developed a forum application using HTML, CSS + Bootstrap, JavaScript, PHP, MYSQL enabling users to create posts, comments, profiles and building communities.",
     github: "https://github.com/Root1-2/Forumium-Final",
     // live: "link",
-    screenshots: "imgPath",
+    screenshots: `${projectPath}forum1.png|${projectPath}forum2.png|${projectPath}forum3.png|${projectPath}forum4.png|${projectPath}forum5.png|${projectPath}forum6.png|`,
     created: "July 28th, 2023",
-    features: "",
+    features:
+      "User Authentication/Browser Posts/Search Posts/Filter Posts/Create Post/Reply to posts/Edit or Delete Posts/",
   },
   {
     id: "5",
@@ -70,8 +71,10 @@ const projects = [
       "Designed and developed a consultancy application using HTML, CSS + Bootstrap, JavaScript, PHP, MYSQL enabling user to search courses, create applications for university enrollment, creating profile.",
     github: "https://github.com/aimanazadkhan/Nextsteps",
     // live: "link",
-    screenshots: "imgPath",
+    screenshots: `${projectPath}next1.png|${projectPath}next2.png|${projectPath}next3.png|${projectPath}next4.png|${projectPath}next5.png|${projectPath}next6.png|${projectPath}next7.png|`,
     created: "Work in Progress",
+    features:
+      "User Authentication/Admin Authentication/Search Courses/Enroll Courses/Create Profile/Admin Panel/Sub-Admin Panel",
   },
   {
     id: "6",
