@@ -1,11 +1,14 @@
 import Input from "./Input";
+import banner from "/bannerImg.svg";
 
 function Contact() {
   return (
     <section id="contacts">
-      <div className="mx-10 h-screen rounded-lg bg-custom-gradient text-white sm:mx-40">
+      <div className="mx-40 my-10 h-screen rounded-lg bg-custom-gradient text-white">
         <div className="flex h-screen items-center justify-between">
-          <div className="w-1/2">Banner</div>
+          <div className="w-1/2">
+            <img src={banner} alt="banner" className="ms-12" />
+          </div>
 
           <div className="w-1/2">
             <p className="mb-10 text-5xl font-semibold">Get In Touch</p>

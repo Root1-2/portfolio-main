@@ -6,6 +6,7 @@ import LandingBody from "../components/LandingBody";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import bg from "/banner-bg.png";
 
 function Landing() {
@@ -31,9 +32,10 @@ function Landing() {
         <Header />
         <div className="h-screen overflow-y-auto">
           <LandingBody />
-          {/* <Skills /> */}
+          <Skills />
           <Projects />
           <Contact />
+          <Footer />
         </div>
       </div>
     </div>
