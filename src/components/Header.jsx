@@ -49,7 +49,7 @@ function Header() {
           className={`w-full md:block md:w-auto ${isOpen ? "" : "hidden"}`}
           id="navbar-default"
         >
-          <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse dark:border-gray-700 dark:bg-slate-950">
+          <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-slate-950 p-4 font-medium sm:bg-transparent md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse dark:border-gray-700">
             <li>
               <a
                 href="/#landing"
