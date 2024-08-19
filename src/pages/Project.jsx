@@ -63,7 +63,7 @@ function Project() {
                 </div>
               </div>
               <div className="absolute bottom-44 right-5 mt-5 justify-end sm:static sm:mt-0 sm:block">
-                <p className="rounded-full bg-cyan-950 px-3 py-2 text-base font-semibold text-slate-100 sm:px-5 sm:py-3">
+                <p className="rounded-full bg-blue-950 px-3 py-2 text-base font-semibold text-slate-100 sm:px-5 sm:py-3">
                   {project.type}
                 </p>
               </div>
