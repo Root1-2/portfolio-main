@@ -32,7 +32,7 @@ function Project() {
                   />
                 </div>
                 <div className="sm:ms-10">
-                  <p className="mb-2 text-3xl font-semibold text-slate-300 sm:text-4xl">
+                  <p className="my-2 text-3xl font-semibold text-slate-300 sm:text-4xl">
                     {project.name}
                   </p>
                   <p className="mb-2 text-lg text-slate-100 sm:text-xl">
@@ -41,7 +41,7 @@ function Project() {
                   <p className="text-lg sm:text-xl">
                     Created: {project.created}
                   </p>
-                  <div className="mt-3 flex gap-5">
+                  <div className="mt-6 flex gap-5">
                     <a
                       href={project.github}
                       target="_blank"
@@ -62,7 +62,7 @@ function Project() {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-64 right-5 mt-5 justify-end sm:static sm:mt-0 sm:block">
+              <div className="absolute bottom-60 right-5 mt-5 justify-end sm:static sm:mt-0 sm:block">
                 <p className="rounded-full bg-cyan-950 px-3 py-2 text-base font-semibold text-slate-100 sm:px-5 sm:py-3">
                   {project.type}
                 </p>
