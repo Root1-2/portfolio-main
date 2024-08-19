@@ -21,23 +21,27 @@ function Project() {
       >
         <Header />
         <div className="pt-24 text-white">
-          <div className="mx-52">
-            <div className="mb-5 flex justify-between">
-              <div className="flex">
-                <div className="h-44 w-80 rounded-lg">
+          <div className="mx-5 sm:mx-52">
+            <div className="mb-5 flex flex-wrap justify-between">
+              <div className="flex flex-wrap">
+                <div className="w-full rounded-lg sm:h-44 sm:w-80">
                   <img
                     src={project.thumbnail}
                     className="h-full w-full rounded-lg object-cover"
-                    alt=""
+                    alt="thumbnail"
                   />
                 </div>
-                <div className="ms-10">
-                  <p className="mb-2 text-4xl font-semibold text-slate-300">
+                <div className="sm:ms-10">
+                  <p className="mb-2 text-3xl font-semibold text-slate-300 sm:text-4xl">
                     {project.name}
                   </p>
-                  <p className="mb-4 text-xl text-slate-100">{project.tools}</p>
-                  <p className="text-xl">Created: {project.created}</p>
-                  <div className="mt-5 flex gap-5">
+                  <p className="mb-2 text-lg text-slate-100 sm:text-xl">
+                    {project.tools}
+                  </p>
+                  <p className="text-lg sm:text-xl">
+                    Created: {project.created}
+                  </p>
+                  <div className="mt-3 flex gap-5">
                     <a
                       href={project.github}
                       target="_blank"
@@ -58,8 +62,8 @@ function Project() {
                   </div>
                 </div>
               </div>
-              <div>
-                <p className="rounded-full bg-cyan-950 px-5 py-3 text-xl font-semibold text-slate-100">
+              <div className="absolute bottom-64 right-5 mt-5 justify-end sm:static sm:mt-0 sm:block">
+                <p className="rounded-full bg-cyan-950 px-3 py-2 text-base font-semibold text-slate-100 sm:px-5 sm:py-3">
                   {project.type}
                 </p>
               </div>
@@ -68,27 +72,27 @@ function Project() {
             <div className="border-b border-gray-600"></div>
 
             <div className="mt-5">
-              <p className="text-4xl font-semibold text-slate-200 underline underline-offset-4">
+              <p className="text-2xl font-semibold text-slate-200 underline underline-offset-4 sm:text-4xl">
                 Description
               </p>
-              <p className="mt-5 text-xl text-slate-100">
+              <p className="mt-5 text-base text-slate-100 sm:text-xl">
                 {project.description}
               </p>
-              <p className="mb-3 mt-10 text-4xl font-semibold text-slate-200 underline underline-offset-4">
+              <p className="mb-3 mt-10 text-2xl font-semibold text-slate-200 underline underline-offset-4 sm:text-4xl">
                 Features
               </p>
               <ul className="ms-6 flex list-disc flex-wrap">
                 {features.map((feature, index) => (
                   <li
                     key={index}
-                    className="mb-2 w-1/4 text-2xl text-slate-200"
+                    className="mb-2 w-2/5 text-sm text-slate-200 sm:w-1/4 sm:text-2xl"
                   >
                     {feature}
                   </li>
                 ))}
               </ul>
 
-              <p className="mt-10 text-4xl font-semibold text-slate-200 underline underline-offset-4">
+              <p className="mt-10 text-2xl font-semibold text-slate-200 underline underline-offset-4 sm:text-4xl">
                 Screenshots
               </p>
               <div className="flex w-full gap-5 overflow-x-scroll">
@@ -96,7 +100,7 @@ function Project() {
                   <img
                     src={screenshot}
                     alt=""
-                    className="mt-5 w-96"
+                    className="my-5 w-48 sm:w-96"
                     key={index}
                   />
                 ))}
