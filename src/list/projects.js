@@ -14,7 +14,7 @@ const projects = [
     screenshots: `${projectPath}forumium1.png|${projectPath}forumium2.png|${projectPath}forumium3.png|${projectPath}forumium4.png|${projectPath}forumium5.png|${projectPath}forumium6.png`,
     created: "August 7th, 2024",
     features:
-      "User Authentication/Creating a Post/Replying to post/Editing a post/Deleting a post/Edit replies/Delete replies",
+      "User Authentication/Creating a Post/Replying to post/Editing a post/Deleting a post/Edit replies/Delete replies/Realtime Posts & Replies",
   },
   {
     id: "2",
