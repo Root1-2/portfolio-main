@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaBars, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { IoDocumentsOutline } from "react-icons/io5";
 import icon from "/icon.png";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,15 +27,15 @@ function Header() {
   return (
     <nav className="fixed left-0 right-0 top-0 z-50 border-gray-200 bg-transparent">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-        <a
-          href="/#landing"
+        <NavLink
+          to="/#landing"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={icon} className="h-8 pt-2" alt="Flowbite Logo" />
           <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
             Portfolio
           </span>
-        </a>
+        </NavLink>
         <button
           onClick={toggleMenu}
           type="button"
@@ -51,36 +52,36 @@ function Header() {
         >
           <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-slate-950 p-4 font-medium sm:bg-transparent md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse dark:border-gray-700">
             <li>
-              <a
-                href="/#landing"
+              <NavLink
+                a="/#landing"
                 onClick={closeMenu}
                 className="block rounded bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-blue-700 dark:text-white md:dark:text-blue-500"
                 aria-current="page"
               >
                 Landing
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
-                href="/#skills"
+              <NavLink
+                to="/#skills"
                 className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 onClick={closeMenu}
               >
                 Skills
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
-                href="/#projects"
+              <NavLink
+                to="/#projects"
                 className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 onClick={closeMenu}
               >
                 Projects
-              </a>
+              </NavLink>
             </li>
             <li className="relative" onMouseEnter={openDropdown}>
-              <a
-                href="/#contacts"
+              <NavLink
+                to="/#contacts"
                 onClick={() => {
                   closeDropdown();
                   closeMenu();
@@ -88,7 +89,7 @@ function Header() {
                 className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
               >
                 Contacts
-              </a>
+              </NavLink>
               {isDropdownOpen && (
                 <ul
                   onMouseLeave={closeDropdown}
