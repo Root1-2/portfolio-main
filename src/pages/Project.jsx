@@ -32,7 +32,7 @@ function Project() {
                   />
                 </div>
                 <div className="sm:ms-10">
-                  <p className="my-2 text-3xl font-semibold text-slate-300 sm:text-4xl">
+                  <p className="mb-2 text-3xl font-semibold text-slate-300 sm:text-4xl">
                     {project.name}
                   </p>
                   <p className="mb-2 text-lg text-slate-100 sm:text-xl">
