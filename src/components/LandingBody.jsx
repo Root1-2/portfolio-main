@@ -19,7 +19,7 @@ function LandingBody() {
           <p className="mb-5 text-justify text-sm font-thin text-slate-300 sm:text-xl">
             Highly motivated individual seeking for a challenging position in
             the computer science field. My strong command in React, HTML, CSS,
-            JavaScript PHP and with other languages has been proven by
+            JavaScript, PHP and with other languages has been proven by
             successfully designing, developing and implementing various state of
             the art projects. Eager to apply these gained knowledge and
             experience towards critical problem solving in an innovative way for
@@ -31,7 +31,7 @@ function LandingBody() {
             </span>
           </button>
         </div>
-        <div className="animate__animated animate__backInRight animate__fast w-1/4 text-center">
+        <div className="animate__animated animate__backInRight animate__fast w-1/4 text-center sm:w-2/5">
           <img src={banner} className="animate-updown" alt="bannerLogo" />
         </div>
       </div>
