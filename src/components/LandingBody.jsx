@@ -19,11 +19,11 @@ function LandingBody() {
           <p className="mb-5 text-justify text-sm font-thin text-slate-300 sm:text-xl">
             Highly motivated individual seeking for a challenging position in
             the computer science field. My strong command in React, HTML, CSS,
-            PHP and with other languages has been proven by successfully
-            designing, developing and implementing various state of the art
-            projects. Eager to apply these gained knowledge and experience
-            towards critical problem solving in an innovative way for the
-            success of the organization.
+            JavaScript PHP and with other languages has been proven by
+            successfully designing, developing and implementing various state of
+            the art projects. Eager to apply these gained knowledge and
+            experience towards critical problem solving in an innovative way for
+            the success of the organization.
           </p>
           <button className="rounded-lg border p-2 transition hover:bg-slate-800 sm:p-5">
             <span className="flex gap-3 text-xl">
