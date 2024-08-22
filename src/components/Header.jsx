@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { FaBars, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { IoDocumentsOutline } from "react-icons/io5";
-import icon from "/icon.png";
 import { NavLink } from "react-router-dom";
+import icon from "/bannerImg.svg";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
