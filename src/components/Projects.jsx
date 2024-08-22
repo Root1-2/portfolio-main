@@ -9,7 +9,7 @@ function Projects() {
           <p className="text-center text-4xl font-semibold text-slate-100">
             Projects
           </p>
-          <div className="mt-14 flex h-[70vh] flex-wrap gap-20 overflow-y-auto">
+          <div className="mt-14 flex h-[70vh] flex-wrap justify-center gap-20 overflow-y-auto sm:justify-start">
             {projects.map((project) => (
               <NavLink to={`/project/${project.id}`}>
                 <div
