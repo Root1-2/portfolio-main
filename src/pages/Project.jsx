@@ -62,7 +62,7 @@ function Project() {
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-44 right-5 mt-5 justify-end sm:static sm:mt-0 sm:block">
+              <div className="animate__animated animate__jackInTheBox absolute bottom-44 right-5 mt-5 justify-end sm:static sm:mt-0 sm:block">
                 <p className="rounded-full bg-blue-950 px-3 py-2 text-base font-semibold text-slate-100 sm:px-5 sm:py-3">
                   {project.type}
                 </p>
@@ -85,7 +85,7 @@ function Project() {
                 {features.map((feature, index) => (
                   <li
                     key={index}
-                    className="mb-2 w-2/5 text-sm text-slate-200 sm:w-1/4 sm:text-2xl"
+                    className="mb-2 w-2/5 text-sm text-slate-200 sm:w-1/4 sm:text-xl"
                   >
                     {feature}
                   </li>

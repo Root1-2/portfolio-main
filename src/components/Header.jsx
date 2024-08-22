@@ -29,7 +29,7 @@ function Header() {
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <NavLink
           to="/#landing"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
+          className="animate__animated animate__swing flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={icon} className="h-8 pt-2" alt="Flowbite Logo" />
           <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
