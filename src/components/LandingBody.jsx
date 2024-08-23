@@ -24,11 +24,13 @@ function LandingBody() {
             experience towards critical problem solving in an innovative way for
             the success of the organization.
           </p>
-          <button className="rounded-lg border p-2 transition hover:bg-slate-800 sm:p-5">
-            <span className="flex gap-3 text-xl">
-              {`Let's Connect`} <CiCircleChevRight size={25} />
-            </span>
-          </button>
+          <a href="#contacts">
+            <button className="rounded-lg border p-2 transition hover:bg-slate-800 sm:p-5">
+              <span className="flex gap-3 text-xl">
+                {`Let's Connect`} <CiCircleChevRight size={25} />
+              </span>
+            </button>
+          </a>
         </div>
         <div className="animate__animated animate__backInRight animate__fast w-1/4 text-center sm:w-2/5">
           <img src={banner} className="animate-updown" alt="bannerLogo" />
