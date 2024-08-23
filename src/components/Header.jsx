@@ -59,7 +59,9 @@ function Header() {
                 to="/#landing"
                 onClick={closeMenu}
                 className={({ isActive }) =>
-                  `${linkClass} ${isActive ? "text-blue-500" : "text-gray-900"}`
+                  `${linkClass} ${
+                    isActive ? "text-blue-500" : "text-gray-900 dark:text-white"
+                  }`
                 }
                 aria-current="page"
               >
@@ -71,7 +73,9 @@ function Header() {
                 to="/#skills"
                 onClick={closeMenu}
                 className={({ isActive }) =>
-                  `${linkClass} ${isActive ? "text-blue-500" : "text-gray-900"}`
+                  `${linkClass} ${
+                    isActive ? "text-blue-500" : "text-gray-900 dark:text-white"
+                  }`
                 }
               >
                 Skills
@@ -82,7 +86,9 @@ function Header() {
                 to="/#projects"
                 onClick={closeMenu}
                 className={({ isActive }) =>
-                  `${linkClass} ${isActive ? "text-blue-500" : "text-gray-900"}`
+                  `${linkClass} ${
+                    isActive ? "text-blue-500" : "text-gray-900 dark:text-white"
+                  }`
                 }
               >
                 Projects
@@ -96,7 +102,9 @@ function Header() {
                   closeMenu();
                 }}
                 className={({ isActive }) =>
-                  `${linkClass} ${isActive ? "text-blue-500" : "text-gray-900"}`
+                  `${linkClass} ${
+                    isActive ? "text-blue-500" : "text-gray-900 dark:text-white"
+                  }`
                 }
               >
                 Contacts
