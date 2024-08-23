@@ -24,9 +24,6 @@ function Header() {
     setIsDropdownOpen(false);
   };
 
-  const linkClass =
-    "block rounded px-3 py-2 md:border-0 md:p-0 hover:bg-gray-100 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent";
-
   return (
     <nav className="fixed left-0 right-0 top-0 z-50 border-gray-200 bg-transparent">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
@@ -58,11 +55,7 @@ function Header() {
               <NavLink
                 to="/#landing"
                 onClick={closeMenu}
-                className={({ isActive }) =>
-                  `${linkClass} ${
-                    isActive ? "text-blue-500" : "text-gray-900 dark:text-white"
-                  }`
-                }
+                className="block rounded bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500"
                 aria-current="page"
               >
                 Landing
@@ -71,12 +64,8 @@ function Header() {
             <li>
               <NavLink
                 to="/#skills"
+                className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 onClick={closeMenu}
-                className={({ isActive }) =>
-                  `${linkClass} ${
-                    isActive ? "text-blue-500" : "text-gray-900 dark:text-white"
-                  }`
-                }
               >
                 Skills
               </NavLink>
@@ -84,12 +73,8 @@ function Header() {
             <li>
               <NavLink
                 to="/#projects"
+                className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 onClick={closeMenu}
-                className={({ isActive }) =>
-                  `${linkClass} ${
-                    isActive ? "text-blue-500" : "text-gray-900 dark:text-white"
-                  }`
-                }
               >
                 Projects
               </NavLink>
@@ -101,11 +86,7 @@ function Header() {
                   closeDropdown();
                   closeMenu();
                 }}
-                className={({ isActive }) =>
-                  `${linkClass} ${
-                    isActive ? "text-blue-500" : "text-gray-900 dark:text-white"
-                  }`
-                }
+                className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
               >
                 Contacts
               </NavLink>
