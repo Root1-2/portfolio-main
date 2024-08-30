@@ -22,7 +22,7 @@ function Project() {
         <Header />
         <div className="pt-24 text-white">
           <div className="mx-5 sm:mx-52">
-            <div className="mb-5 flex flex-wrap justify-between">
+            <div className="mb-5 flex justify-between">
               <div className="flex flex-wrap">
                 <div className="w-full rounded-lg sm:h-44 sm:w-80">
                   <img
@@ -62,8 +62,8 @@ function Project() {
                   </div>
                 </div>
               </div>
-              <div className="animate__animated animate__jackInTheBox absolute bottom-44 right-5 mt-5 justify-end sm:static sm:mt-0 sm:block">
-                <p className="rounded-full bg-blue-950 px-3 py-2 text-base font-semibold text-slate-100 sm:px-5 sm:py-3">
+              <div className="animate__animated animate__jackInTheBox flex flex-col justify-end sm:block">
+                <p className="whitespace-nowrap rounded-full bg-blue-950 px-3 py-2 text-sm font-semibold text-slate-100 sm:px-5 sm:py-3 sm:text-base">
                   {project.type}
                 </p>
               </div>
