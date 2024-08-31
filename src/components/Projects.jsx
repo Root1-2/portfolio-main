@@ -14,7 +14,7 @@ function Projects() {
               <NavLink to={`/project/${project.id}`}>
                 <div
                   key={project.id}
-                  className="animate__animated animate__fadeIn animate__delay-1s group relative h-44 w-80 scale-90 transform cursor-pointer rounded-lg bg-gradient-to-r from-purple-500 to-indigo-600 transition duration-300 ease-in-out hover:scale-100 hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-700"
+                  className="group relative h-44 w-80 scale-90 transform cursor-pointer rounded-lg bg-gradient-to-r from-purple-500 to-indigo-600 transition duration-300 ease-in-out hover:scale-100 hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-700"
                 >
                   <img
                     src={project.thumbnail}
