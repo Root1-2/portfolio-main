@@ -119,7 +119,7 @@ function Header() {
                   </li>
                   <li>
                     <a
-                      href="/CV.pdf"
+                      href="/Abdullah_Al_Masrur_Resume_React.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center space-x-2 text-gray-200"
