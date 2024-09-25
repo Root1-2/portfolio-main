@@ -21,7 +21,7 @@ function Skills() {
         </div>
 
         {selectedSkill && filteredSubskills.length > 0 && (
-          <div className="mx-20 mt-10 rounded-full bg-neutral-900 p-10">
+          <div className="animate__animated animate__backInUp mx-20 mt-10 rounded-full bg-neutral-900 p-10">
             <p className="mb-10 text-center text-4xl font-semibold text-slate-100">
               Sub-Skills for {selectedSkill}
             </p>

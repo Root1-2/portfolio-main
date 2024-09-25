@@ -1,57 +1,57 @@
 const skills = [
   {
     name: "React",
-    imgPath: "/react.png",
+    imgPath: "/skills/react.png",
     desc: "",
   },
   {
     name: "JavaScript",
-    imgPath: "/js.png",
+    imgPath: "/skills/js.png",
     desc: "",
   },
   {
     name: "PHP",
-    imgPath: "/PHP.svg",
+    imgPath: "/skills/PHP.svg",
     desc: "",
   },
   {
     name: "Flutter",
-    imgPath: "/flutter.svg",
+    imgPath: "/skills/flutter.svg",
     desc: "",
   },
   {
     name: "Dart",
-    imgPath: "/dart.svg",
+    imgPath: "/skills/dart.svg",
+    desc: "",
+  },
+  {
+    name: "Database",
+    imgPath: "/skills/db.jpg",
     desc: "",
   },
   {
     name: "Electron",
-    imgPath: "/electron.jpg",
+    imgPath: "/skills/electron.jpg",
     desc: "",
   },
   {
     name: "HTML",
-    imgPath: "/html.svg",
+    imgPath: "/skills/html.svg",
     desc: "",
   },
   {
     name: "CSS",
-    imgPath: "/css.svg",
+    imgPath: "/skills/css.svg",
     desc: "",
   },
   {
     name: "Python",
-    imgPath: "/python.svg",
+    imgPath: "/skills/python.svg",
     desc: "",
   },
   {
-    name: "Dart",
-    imgPath: "/dart.svg",
-    desc: "",
-  },
-  {
-    name: "Dart",
-    imgPath: "/dart.svg",
+    name: "C++",
+    imgPath: "/skills/c++.svg",
     desc: "",
   },
 ];

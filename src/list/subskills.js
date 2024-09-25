@@ -1,28 +1,43 @@
 const subskills = [
   {
     for: "React",
-    name: "react-query",
-    imgPath: "/react.png",
+    name: "React Query",
+    imgPath: "/subskills/rq.png",
   },
   {
     for: "React",
     name: "Context API",
-    imgPath: "/js.png",
+    imgPath: "/subskills/cApi.png",
   },
   {
     for: "React",
     name: "Redux",
-    imgPath: "/PHP.svg",
+    imgPath: "/subskills/redux.svg",
   },
   {
     for: "CSS",
     name: "Bootstrap",
-    imgPath: "/flutter.svg",
+    imgPath: "/subskills/bootstrap.svg",
   },
   {
     for: "CSS",
     name: "Tailwind",
-    imgPath: "/flutter.svg",
+    imgPath: "/subskills/tailwind.jpg",
+  },
+  {
+    for: "Database",
+    name: "MYSQL",
+    imgPath: "/subskills/mysql.svg",
+  },
+  {
+    for: "Database",
+    name: "Firebase",
+    imgPath: "/subskills/firebase.png",
+  },
+  {
+    for: "Database",
+    name: "Supabase",
+    imgPath: "/subskills/supabase.jpg",
   },
 ];
 
