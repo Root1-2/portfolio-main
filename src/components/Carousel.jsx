@@ -8,14 +8,18 @@ import "swiper/css/free-mode";
 
 function Carousel({ data, onClick }) {
   return (
-    <div className="item-center flex flex-col justify-center">
+    <div className="flex w-full justify-center">
       <Swiper
         breakpoints={{
           340: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 15,
           },
           700: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+          },
+          1024: {
             slidesPerView: 5,
             spaceBetween: 15,
           },
@@ -25,7 +29,7 @@ function Carousel({ data, onClick }) {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="max-w-[90] !pb-12 lg:max-w-[80%]"
+        className="w-full max-w-[90%] pb-12 lg:max-w-[80%]" // Ensure swiper takes up enough space
       >
         {data.map((item) => (
           <SwiperSlide key={item.name} onClick={() => onClick(item.name)}>
@@ -39,8 +43,9 @@ function Carousel({ data, onClick }) {
               />
               <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
               <div className="relative flex flex-col gap-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                <h1 className="text-sm lg:text-base">{item.name}</h1>
-                <p className="lg:text-sm">Item Description</p>
+                <h1 className="text-center text-sm lg:text-base">
+                  {item.name}
+                </h1>
               </div>
               <RxArrowTopRight className="absolute bottom-4 left-4 h-[25px] w-[25px] text-white duration-100 group-hover:rotate-45 group-hover:text-blue-500" />
             </div>
