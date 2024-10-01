@@ -1,6 +1,11 @@
 const subskills = [
   {
     for: "React",
+    name: "Next.js",
+    imgPath: "/subskills/nextjs.jpeg",
+  },
+  {
+    for: "React",
     name: "React Query",
     imgPath: "/subskills/rq.png",
   },
