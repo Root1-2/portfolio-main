@@ -4,6 +4,10 @@ const skills = [
     imgPath: "/skills/react.png",
   },
   {
+    name: "Electron",
+    imgPath: "/skills/react.png",
+  },
+  {
     name: "JavaScript",
     imgPath: "/skills/js.png",
   },
