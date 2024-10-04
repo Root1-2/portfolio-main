@@ -1,4 +1,4 @@
-import icon from "/icon.png";
+import icon from "/bannerImg.svg";
 import { IoDocumentsOutline } from "react-icons/io5";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
@@ -53,11 +53,7 @@ function Footer() {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <span class="block text-sm text-gray-400 sm:text-center">
-          © 2024{" "}
-          <a href="https://flowbite.com/" class="hover:underline">
-            Portfolio
-          </a>
-          . All Rights Reserved.
+          © 2024 Portfolio . All Rights Reserved.
         </span>
       </div>
     </footer>
