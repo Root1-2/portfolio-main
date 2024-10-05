@@ -15,6 +15,7 @@ const projects = [
     created: "August 7th, 2024",
     features:
       "User Authentication/Creating a Post/Replying to post/Editing a post/Deleting a post/Edit replies/Delete replies/Realtime Posts & Replies",
+    category: "full",
   },
   {
     id: "2",
@@ -30,6 +31,8 @@ const projects = [
     created: "July 27th, 2024",
     features:
       "Username for login/Search Pizzas/Cart/Confirm Order from Cart/Order form/Search order from Order ID/Quantity Manage",
+
+    category: "full",
   },
   {
     id: "3",
@@ -45,6 +48,7 @@ const projects = [
     created: "February 28th, 2024",
     features:
       "User Authentication/Forgot Password/Doctor Appointment/Blood Bank/Self-Diagnosis/Med-Corner/E-Pharmacy/Payment Methods/Creating Profile/Admin Panel for Management",
+    category: "full",
   },
   {
     id: "4",
@@ -60,6 +64,7 @@ const projects = [
     created: "July 28th, 2023",
     features:
       "User Authentication/Browser Posts/Search Posts/Filter Posts/Create Post/Reply to posts/Edit or Delete Posts/",
+    category: "full",
   },
   {
     id: "5",
@@ -75,6 +80,7 @@ const projects = [
     created: "Work in Progress",
     features:
       "User Authentication/Admin Authentication/Search Courses/Enroll Courses/Create Profile/Admin Panel/Sub-Admin Panel",
+    category: "full",
   },
   {
     id: "6",
@@ -89,6 +95,7 @@ const projects = [
     screenshots: `${projectPath}webAuth1.png|${projectPath}webAuth2.png|${projectPath}webAuth3.png|${projectPath}webAuth4.png|${projectPath}webAuth5.png|`,
     created: "Work in Progress",
     features: "User Authenticaion/User Verification from Email/Admin Approval",
+    category: "full",
   },
   {
     id: "7",
@@ -104,6 +111,7 @@ const projects = [
     created: "February 27th, 2023",
     features:
       "User Authentication/Blood Bank/Doctor Appointment/Ambulance Caller/Medicine Reminder/Profile Create",
+    category: "full",
   },
   {
     id: "8",
@@ -118,6 +126,7 @@ const projects = [
     screenshots: "imgPath",
     created: "March 10th, 2023",
     features: "Login/Registration/Change Password",
+    category: "full",
   },
   {
     id: "9",
@@ -133,6 +142,52 @@ const projects = [
     created: "February 10th, 2022",
     features:
       "User Authentication/Browse Food/Food Order/Create Receipt/Manage Stuff",
+    category: "side",
+  },
+  {
+    id: "10",
+    name: "React Form Hook",
+    thumbnail: "/projectThumbnail/formHook.png",
+    tools: "React, Tailwind CSS, React Form Hook",
+    type: "Front-End",
+    description:
+      "This small project was made for my practice of the usage of react form hook provided by React to manage form data.",
+    github: "https://github.com/Root1-2/form-hook",
+    live: "https://form-hook-mocha.vercel.app/",
+    screenshots: `${projectPath}formHook1.png|${projectPath}formHook2.png`,
+    created: "September 13th, 2024",
+    features: "Varied Form/Multiple Fields/Multiple Validation",
+    category: "side",
+  },
+  {
+    id: "11",
+    name: "Currency Converter",
+    thumbnail: "/projectThumbnail/curCon.png",
+    tools: "React, CSS, UseState, API Fetch",
+    type: "Front-End",
+    description:
+      "This mini project was developed for the practice usage of UseState Hook, API Fetching, asyncronous use.",
+    github: "https://github.com/Root1-2/currency-converter",
+    live: "https://currency-converter-theta-ruddy.vercel.app/",
+    screenshots: `${projectPath}curCon1.png|${projectPath}curCon2.png`,
+    created: "July 14th, 2024",
+    features: "Currency Conversion",
+    category: "side",
+  },
+  {
+    id: "12",
+    name: "Calculator",
+    thumbnail: "/projectThumbnail/calculatorReact.png",
+    tools: "React, CSS, useState",
+    type: "Front-End",
+    description:
+      "My first react project developed for the practice for using React useState hook provided by React",
+    github: "https://github.com/Root1-2/calculator",
+    live: "https://calculator-eosin-ten-13.vercel.app/",
+    screenshots: `${projectPath}calculatorReact1.png|${projectPath}calculatorReact2.png|${projectPath}calculatorReact3.png`,
+    created: "July 7th, 2024",
+    features: "Multiple Arithmetic Conversion",
+    category: "side",
   },
 ];
 
