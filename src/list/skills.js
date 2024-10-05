@@ -5,7 +5,7 @@ const skills = [
   },
   {
     name: "Electron",
-    imgPath: "/skills/react.png",
+    imgPath: "/skills/electron.jpg",
   },
   {
     name: "JavaScript",
@@ -27,10 +27,7 @@ const skills = [
     name: "Database",
     imgPath: "/skills/db.jpg",
   },
-  {
-    name: "Electron",
-    imgPath: "/skills/electron.jpg",
-  },
+
   {
     name: "HTML",
     imgPath: "/skills/html.svg",
