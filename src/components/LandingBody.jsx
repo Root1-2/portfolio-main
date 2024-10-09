@@ -7,7 +7,7 @@ function LandingBody() {
       <div className="flex h-screen flex-wrap items-center justify-between gap-3 p-5 text-white sm:gap-0 sm:p-20">
         <div className="animate__animated animate__backInLeft animate__fast w-2/3 sm:w-1/2">
           <p className="mb-3 sm:mb-10">
-            <span className="mb-2 border border-gray-100 bg-custom-gradient px-1 py-3 font-mono text-sm sm:px-3 sm:py-5 sm:text-4xl">
+            <span className="mb-2 rounded-lg border border-gray-100 bg-custom-gradient px-1 py-3 font-mono text-sm sm:px-3 sm:py-5 sm:text-4xl">
               Welcome To My Portfolio
             </span>
           </p>

@@ -82,21 +82,7 @@ const projects = [
       "User Authentication/Admin Authentication/Search Courses/Enroll Courses/Create Profile/Admin Panel/Sub-Admin Panel",
     category: "full",
   },
-  {
-    id: "6",
-    name: "Web Authentication",
-    thumbnail: "/projectThumbnail/WebAuth.png",
-    tools: "HTML, Bootstrap, PHP, MYSQL",
-    type: "Full Stack",
-    description:
-      "Programmed a web authentication system, designed using HTML, CSS + Bootstrap, JavaScript, PHP, MYSQL, comprised of Login, Registration with email verification (PHPMailer), Admin Panel.",
-    github: "https://github.com/Root1-2/Web-Authentication",
-    // live: "link",
-    screenshots: `${projectPath}webAuth1.png|${projectPath}webAuth2.png|${projectPath}webAuth3.png|${projectPath}webAuth4.png|${projectPath}webAuth5.png|`,
-    created: "Work in Progress",
-    features: "User Authenticaion/User Verification from Email/Admin Approval",
-    category: "full",
-  },
+
   {
     id: "7",
     name: "Virtual Aid",
@@ -111,6 +97,21 @@ const projects = [
     created: "February 27th, 2023",
     features:
       "User Authentication/Blood Bank/Doctor Appointment/Ambulance Caller/Medicine Reminder/Profile Create",
+    category: "full",
+  },
+  {
+    id: "6",
+    name: "Web Authentication",
+    thumbnail: "/projectThumbnail/WebAuth.png",
+    tools: "HTML, Bootstrap, PHP, MYSQL",
+    type: "Full Stack",
+    description:
+      "Programmed a web authentication system, designed using HTML, CSS + Bootstrap, JavaScript, PHP, MYSQL, comprised of Login, Registration with email verification (PHPMailer), Admin Panel.",
+    github: "https://github.com/Root1-2/Web-Authentication",
+    // live: "link",
+    screenshots: `${projectPath}webAuth1.png|${projectPath}webAuth2.png|${projectPath}webAuth3.png|${projectPath}webAuth4.png|${projectPath}webAuth5.png|`,
+    created: "Work in Progress",
+    features: "User Authenticaion/User Verification from Email/Admin Approval",
     category: "full",
   },
   {
