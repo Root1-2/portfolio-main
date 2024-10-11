@@ -8,13 +8,29 @@ const projects = [
     tools: "React, Tailwind, React Query, Supabase",
     type: "Full Stack",
     description:
-      "Designed and developed a forum application using React, Tailwind CSS, Supabase Database and many react libraries. enabling users to create posts, comments, profiles and building communities.",
+      "Designed and developed a forum application using React, Tailwind CSS, Supabase Database and many react libraries, enabling users to create posts, comments, profiles and building communities.",
     github: "https://github.com/Root1-2/Forumium-React-Version-",
     live: "https://forumium.vercel.app/",
     screenshots: `${projectPath}forumium1.png|${projectPath}forumium2.png|${projectPath}forumium3.png|${projectPath}forumium4.png|${projectPath}forumium5.png|${projectPath}forumium6.png`,
     created: "August 7th, 2024",
     features:
       "User Authentication/Creating a Post/Replying to post/Editing a post/Deleting a post/Edit replies/Delete replies/Realtime Posts & Replies",
+    category: "full",
+  },
+  {
+    id: "15",
+    name: "Hotel Management",
+    thumbnail: "/projectThumbnail/hotelMan.png",
+    tools: "Next.Js, Tailwind, Auth.Js(Google Provider), Supabase",
+    type: "Full Stack",
+    description:
+      "Designed and manufactured a hotel management website using Next.Js, Tailwind CSS, Supabase Database, Auth.Js and various React & Next.Js libraries, enabling users to create reservation, edit their reservatoin, delete reservation before their booking dates.",
+    github: "https://github.com/Root1-2/hotel-management-0.1",
+    live: "https://hotelmanage.vercel.app/",
+    screenshots: `${projectPath}hotelMan1.png|${projectPath}hotelMan1.png|${projectPath}hotelMan3.png|${projectPath}hotelMan4.png|${projectPath}hotelMan5.png|${projectPath}hotelMan6.png|${projectPath}hotelMan7.png`,
+    created: "October 12th, 2024",
+    features:
+      "User Authentication/Creating a reservation/Editing Reservation before booking date/Delete a reservation before booked date/Edit Profile/Mobile Responsive Design",
     category: "full",
   },
   {
@@ -129,6 +145,8 @@ const projects = [
     features: "Login/Registration/Change Password",
     category: "full",
   },
+
+  // Side
   {
     id: "9",
     name: "Canteen Management",

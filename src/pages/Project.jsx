@@ -12,7 +12,6 @@ function Project() {
 
   const features = projects[id - 1].features.split("/");
   const screenshots = projects[id - 1].screenshots.split("|");
-  console.log(screenshots);
   return (
     <div className="relative">
       <div
@@ -82,9 +81,9 @@ function Project() {
                 Features
               </p>
               <ul className="ms-6 flex list-disc flex-wrap">
-                {features.map((feature, index) => (
+                {features.map((feature) => (
                   <li
-                    key={index}
+                    key={project.id}
                     className="mb-2 w-2/5 text-sm text-slate-200 sm:w-1/4 sm:text-xl"
                   >
                     {feature}
@@ -96,12 +95,12 @@ function Project() {
                 Screenshots
               </p>
               <div className="flex w-full gap-5 overflow-x-scroll">
-                {screenshots.map((screenshot, index) => (
+                {screenshots.map((screenshot) => (
                   <img
                     src={screenshot}
                     alt=""
                     className="my-5 w-48 sm:w-96"
-                    key={index}
+                    key={project.id}
                   />
                 ))}
               </div>
