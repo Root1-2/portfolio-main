@@ -30,7 +30,7 @@ const projects = [
     screenshots: `${projectPath}hotelMan1.png|${projectPath}hotelMan1.png|${projectPath}hotelMan3.png|${projectPath}hotelMan4.png|${projectPath}hotelMan5.png|${projectPath}hotelMan6.png|${projectPath}hotelMan7.png`,
     created: "October 12th, 2024",
     features:
-      "User Authentication/Creating a reservation/Editing Reservation before booking date/Delete a reservation before booked date/Edit Profile/Mobile Responsive Design",
+      "User Authentication/Creating a reservation/Edit a Reservation/Delete a reservation/All changes only applicable before booking data/Edit Profile/Mobile Responsive Design",
     category: "full",
   },
   {
