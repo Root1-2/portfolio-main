@@ -12,6 +12,10 @@ const skills = [
     imgPath: "/skills/js.png",
   },
   {
+    name: "Python",
+    imgPath: "/skills/python.svg",
+  },
+  {
     name: "PHP",
     imgPath: "/skills/PHP.svg",
   },
@@ -35,10 +39,6 @@ const skills = [
   {
     name: "CSS",
     imgPath: "/skills/css.svg",
-  },
-  {
-    name: "Python",
-    imgPath: "/skills/python.svg",
   },
   {
     name: "C++",
