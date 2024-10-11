@@ -2,7 +2,7 @@ const projectPath = "/projectScreenshot/";
 
 const projects = [
   {
-    id: "1",
+    id: 1,
     name: "Forumium",
     thumbnail: "/projectThumbnail/Forumium.png",
     tools: "React, Tailwind, React Query, Supabase",
@@ -18,7 +18,7 @@ const projects = [
     category: "full",
   },
   {
-    id: "15",
+    id: 15,
     name: "Hotel Management",
     thumbnail: "/projectThumbnail/hotelMan.png",
     tools: "Next.Js, Tailwind, Auth.Js(Google Provider), Supabase",
@@ -34,7 +34,7 @@ const projects = [
     category: "full",
   },
   {
-    id: "2",
+    id: 2,
     name: "Fast Pizza",
     thumbnail: "/projectThumbnail/Fastpizza.png",
     tools: "React, Tailwind, Redux",
@@ -51,7 +51,7 @@ const projects = [
     category: "full",
   },
   {
-    id: "3",
+    id: 3,
     name: "NexusHealth",
     thumbnail: "/projectThumbnail/Nexus.png",
     tools: "HTML, CSS, JavaScript, Bootstrap, PHP, MYSQL",
@@ -67,7 +67,7 @@ const projects = [
     category: "full",
   },
   {
-    id: "4",
+    id: 4,
     name: "Forumium 0.1",
     thumbnail: "/projectThumbnail/Forumium0.1.png",
     tools: "HTML, CSS, JavsScript, Bootstrap, PHP, MYSQL",
@@ -83,7 +83,7 @@ const projects = [
     category: "full",
   },
   {
-    id: "5",
+    id: 5,
     name: "NextSteps",
     thumbnail: "/projectThumbnail/NextSteps.png",
     tools: "HTML, CSS, JavaScript, Bootstrap, PHP, MYSQL",
@@ -100,7 +100,7 @@ const projects = [
   },
 
   {
-    id: "7",
+    id: 7,
     name: "Virtual Aid",
     thumbnail: "/projectThumbnail/Virtualaid.png",
     tools: "Flutter, Dart, Firebase",
@@ -116,7 +116,7 @@ const projects = [
     category: "full",
   },
   {
-    id: "6",
+    id: 6,
     name: "Web Authentication",
     thumbnail: "/projectThumbnail/WebAuth.png",
     tools: "HTML, Bootstrap, PHP, MYSQL",
@@ -131,7 +131,7 @@ const projects = [
     category: "full",
   },
   {
-    id: "8",
+    id: 8,
     name: "Android Authentication",
     thumbnail: "/projectThumbnail/androidAuth.jpg",
     tools: "Flutter, Dart, Firebase",
@@ -148,7 +148,7 @@ const projects = [
 
   // Side
   {
-    id: "9",
+    id: 9,
     name: "Canteen Management",
     thumbnail: "/projectThumbnail/CanteenMan.png",
     tools: "Java, Java Swing, OOP",
@@ -164,7 +164,7 @@ const projects = [
     category: "side",
   },
   {
-    id: "10",
+    id: 10,
     name: "React Form Hook",
     thumbnail: "/projectThumbnail/formHook.png",
     tools: "React, Tailwind CSS, React Form Hook",
@@ -179,7 +179,7 @@ const projects = [
     category: "side",
   },
   {
-    id: "11",
+    id: 11,
     name: "Currency Converter",
     thumbnail: "/projectThumbnail/curCon.png",
     tools: "React, CSS, UseState, API Fetch",
@@ -194,7 +194,7 @@ const projects = [
     category: "side",
   },
   {
-    id: "12",
+    id: 12,
     name: "Calculator",
     thumbnail: "/projectThumbnail/calculatorReact.png",
     tools: "React, CSS, useState",

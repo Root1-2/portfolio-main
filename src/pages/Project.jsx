@@ -7,11 +7,13 @@ import projects from "../list/projects";
 
 function Project() {
   let { id } = useParams();
+  id = Number(id);
 
   const project = projects.find((project) => project.id === id);
 
-  const features = projects[id - 1].features.split("/");
-  const screenshots = projects[id - 1].screenshots.split("|");
+  const features = project.features.split("/");
+  const screenshots = project.screenshots.split("|");
+
   return (
     <div className="relative">
       <div
@@ -34,7 +36,7 @@ function Project() {
                   <p className="mb-2 text-3xl font-semibold text-slate-300 sm:text-4xl">
                     {project.name}
                   </p>
-                  <p className="mb-2 text-lg text-slate-100 sm:text-xl">
+                  <p className="mb-2 text-lg font-semibold text-slate-100 sm:text-2xl">
                     {project.tools}
                   </p>
                   <p className="text-lg sm:text-xl">
