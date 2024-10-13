@@ -51,6 +51,23 @@ const projects = [
     category: "full",
   },
   {
+    id: 221,
+    name: "Root Player",
+    thumbnail: "/projectThumbnail/rootPlayer.jpg",
+    tools: "Electron, React, Tailwind",
+    type: "Front-End",
+    description:
+      "Developed a music player system using React, Electron, Tailwind CSS and many React & Electron Libraries includes queue system for songs, sorting songs by multiple options, dashboard for statistics of songs details such as most played, amount of time played, most favorite arists etc.",
+    github: "",
+    live: "",
+    screenshots: ``,
+    created: "",
+    features:
+      "Music Player/Multiple sorting options/Queue/Equalizer/Dashboard for stats/Search songs/Song ratings",
+    unavailable: true,
+    category: "full",
+  },
+  {
     id: 3,
     name: "NexusHealth",
     thumbnail: "/projectThumbnail/Nexus.png",
