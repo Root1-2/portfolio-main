@@ -69,6 +69,11 @@ const subskills = [
     name: "Supabase",
     imgPath: "/subskills/supabase.jpg",
   },
+  {
+    for: "Database",
+    name: "PostgreSQL",
+    imgPath: "/subskills/postgresqlg.png",
+  },
 ];
 
 export default subskills;
