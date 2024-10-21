@@ -16,6 +16,10 @@ const skills = [
     imgPath: "/skills/python.svg",
   },
   {
+    name: "Laravel",
+    imgPath: "/skills/laravel.png",
+  },
+  {
     name: "PHP",
     imgPath: "/skills/PHP.svg",
   },
