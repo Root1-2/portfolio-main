@@ -12,7 +12,7 @@ function Carousel({ data, onClick }) {
       <Swiper
         breakpoints={{
           340: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 15,
           },
           700: {
@@ -33,7 +33,7 @@ function Carousel({ data, onClick }) {
       >
         {data.map((item) => (
           <SwiperSlide key={item.name} onClick={() => onClick(item.name)}>
-            <div className="group relative flex h-[150px] w-[130px] flex-col gap-3 rounded-lg px-4 py-5 text-white shadow-md lg:h-[200px] lg:w-[200px]">
+            <div className="group relative flex h-[80px] w-[80px] flex-col gap-3 rounded-lg px-4 py-5 text-white shadow-md lg:h-[200px] lg:w-[200px]">
               <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
@@ -47,7 +47,7 @@ function Carousel({ data, onClick }) {
                   {item.name}
                 </h1>
               </div>
-              <RxArrowTopRight className="absolute bottom-4 left-4 h-[25px] w-[25px] text-white duration-100 group-hover:rotate-45 group-hover:text-blue-500" />
+              <RxArrowTopRight className="absolute bottom-1 left-1 h-[16px] w-[16px] text-white duration-100 group-hover:rotate-45 group-hover:text-blue-500 md:bottom-4 md:left-4 md:h-[25px] md:w-[25px]" />
             </div>
           </SwiperSlide>
         ))}
