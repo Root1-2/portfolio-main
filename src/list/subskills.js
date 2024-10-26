@@ -84,11 +84,6 @@ const subskills = [
     name: "Tinker",
     imgPath: "/subskills/tinker.png",
   },
-  {
-    for: "Laravel",
-    name: "Breeze",
-    imgPath: "/subskills/breeze.png",
-  },
 ];
 
 export default subskills;
