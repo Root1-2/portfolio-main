@@ -31,6 +31,11 @@ const subskills = [
   },
   {
     for: "JavaScript",
+    name: "Alpine.js",
+    imgPath: "/subskills/alpine.png",
+  },
+  {
+    for: "JavaScript",
     name: "JQuery",
     imgPath: "/subskills/jquery.png",
   },
