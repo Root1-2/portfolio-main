@@ -34,6 +34,22 @@ const projects = [
     category: "full",
   },
   {
+    id: 1532,
+    name: "Workium",
+    thumbnail: "/projectThumbnail/workium.jpg",
+    tools: "Laravel, Blade, Alpine.js, Tailwind, PostgreSQL",
+    type: "Full Stack",
+    description:
+      "Designed and manufactured a simple yet efficient job finding platform where user can find various jobs suitable for his skills. Furthermore, user can add his own job listings for other to find.",
+    github: "https://github.com/Root1-2/workium",
+    // live: "https://hotelmanage.vercel.app/",
+    screenshots: `${projectPath}workium1.jpg|${projectPath}workium2.jpg|${projectPath}workium3.jpg|${projectPath}workium4.jpg|${projectPath}workium5.jpg|${projectPath}workium6.jpg`,
+    created: "October 26, 2024",
+    features:
+      "User Authentication/Creating a Job/Bookmark Jobs/Edit Profile/Apply for a Job/Delete Application (Applicable for job creator)/Search Job/Mobile Responsive Design",
+    category: "full",
+  },
+  {
     id: 2,
     name: "Fast Pizza",
     thumbnail: "/projectThumbnail/Fastpizza.png",
