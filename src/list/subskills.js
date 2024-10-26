@@ -75,6 +75,11 @@ const subskills = [
     imgPath: "/subskills/supabase.jpg",
   },
   {
+    for: "Database",
+    name: "PostgreSQL",
+    imgPath: "/subskills/postgresql.png",
+  },
+  {
     for: "Laravel",
     name: "Blade Template",
     imgPath: "/subskills/blade.jpg",
