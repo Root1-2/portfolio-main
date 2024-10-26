@@ -8,6 +8,10 @@ const skills = [
     imgPath: "/skills/electron.jpg",
   },
   {
+    name: "Laravel",
+    imgPath: "/skills/laravel.png",
+  },
+  {
     name: "JavaScript",
     imgPath: "/skills/js.png",
   },
@@ -16,12 +20,16 @@ const skills = [
     imgPath: "/skills/python.svg",
   },
   {
-    name: "Laravel",
-    imgPath: "/skills/laravel.png",
+    name: "Database",
+    imgPath: "/skills/db.jpg",
   },
   {
     name: "PHP",
     imgPath: "/skills/PHP.svg",
+  },
+  {
+    name: "CSS",
+    imgPath: "/skills/css.svg",
   },
   {
     name: "Flutter",
@@ -32,17 +40,8 @@ const skills = [
     imgPath: "/skills/dart.svg",
   },
   {
-    name: "Database",
-    imgPath: "/skills/db.jpg",
-  },
-
-  {
     name: "HTML",
     imgPath: "/skills/html.svg",
-  },
-  {
-    name: "CSS",
-    imgPath: "/skills/css.svg",
   },
   {
     name: "C++",
