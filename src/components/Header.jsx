@@ -68,7 +68,7 @@ function Header() {
                   handleActiveClass(e);
                   closeMenu();
                 }}
-                className="nav-item block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500"
+                className="nav-item block rounded px-3 py-2 md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Landing
               </NavLink>
@@ -81,7 +81,7 @@ function Header() {
                   handleActiveClass(e);
                   closeMenu();
                 }}
-                className="nav-item block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500"
+                className="nav-item block rounded px-3 py-2 md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Skills
               </NavLink>
@@ -94,7 +94,7 @@ function Header() {
                   handleActiveClass(e);
                   closeMenu();
                 }}
-                className="nav-item block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500"
+                className="nav-item block rounded px-3 py-2 md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Projects
               </NavLink>
@@ -108,7 +108,7 @@ function Header() {
                   closeDropdown();
                   closeMenu();
                 }}
-                className="nav-item block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500"
+                className="nav-item block rounded px-3 py-2 md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Contacts
               </NavLink>
