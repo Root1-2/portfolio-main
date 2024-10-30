@@ -24,6 +24,16 @@ function Header() {
     setIsDropdownOpen(false);
   };
 
+  function handleActiveClass(e) {
+    // Remove 'text-green-800' from all links
+    document.querySelectorAll(".nav-item").forEach((link) => {
+      link.classList.remove("text-blue-800", "text-white");
+    });
+
+    // Add 'text-green-800' to the clicked link
+    e.currentTarget.classList.add("text-blue-800");
+  }
+
   return (
     <nav className="fixed left-0 right-0 top-0 z-50 border-gray-200 bg-transparent">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
@@ -50,17 +60,15 @@ function Header() {
           className={`w-full md:block md:w-auto ${isOpen ? "" : "hidden"}`}
           id="navbar-default"
         >
-          <ul className="mt-4 flex flex-col rounded-lg border border-gray-700 bg-slate-950 p-4 font-medium sm:bg-transparent md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse">
+          <ul className="mt-4 flex flex-col rounded-lg border border-gray-700 bg-slate-950 p-4 font-medium text-white sm:bg-transparent md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse">
             <li>
               <NavLink
                 to="/#landing"
-                onClick={closeMenu}
-                className={({ isActive }) =>
-                  `block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500 ${
-                    isActive ? "text-green-800" : "bg-blue-700"
-                  }`
-                }
-                aria-current="page"
+                onClick={(e) => {
+                  handleActiveClass(e);
+                  closeMenu();
+                }}
+                className="nav-item block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Landing
               </NavLink>
@@ -69,41 +77,38 @@ function Header() {
             <li>
               <NavLink
                 to="/#skills"
-                className={({ isActive }) =>
-                  `block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500 ${
-                    isActive ? "text-green-800" : "bg-blue-700"
-                  }`
-                }
-                onClick={closeMenu}
+                onClick={(e) => {
+                  handleActiveClass(e);
+                  closeMenu();
+                }}
+                className="nav-item block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Skills
               </NavLink>
             </li>
+
             <li>
               <NavLink
                 to="/#projects"
-                className={({ isActive }) =>
-                  `block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500 ${
-                    isActive ? "text-green-800" : "bg-blue-700"
-                  }`
-                }
-                onClick={closeMenu}
+                onClick={(e) => {
+                  handleActiveClass(e);
+                  closeMenu();
+                }}
+                className="nav-item block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Projects
               </NavLink>
             </li>
+
             <li className="relative" onMouseEnter={openDropdown}>
               <NavLink
                 to="/#contacts"
-                onClick={() => {
+                onClick={(e) => {
+                  handleActiveClass(e);
                   closeDropdown();
                   closeMenu();
                 }}
-                className={({ isActive }) =>
-                  `block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500 ${
-                    isActive ? "text-green-800" : "bg-blue-700"
-                  }`
-                }
+                className="nav-item block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Contacts
               </NavLink>
