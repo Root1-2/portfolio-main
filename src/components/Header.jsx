@@ -55,16 +55,25 @@ function Header() {
               <NavLink
                 to="/#landing"
                 onClick={closeMenu}
-                className="block rounded bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-blue-700"
+                className={({ isActive }) =>
+                  `block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500 ${
+                    isActive ? "text-green-800" : "bg-blue-700"
+                  }`
+                }
                 aria-current="page"
               >
                 Landing
               </NavLink>
             </li>
+
             <li>
               <NavLink
                 to="/#skills"
-                className="block rounded px-3 py-2 text-white hover:bg-gray-700 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-500"
+                className={({ isActive }) =>
+                  `block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500 ${
+                    isActive ? "text-green-800" : "bg-blue-700"
+                  }`
+                }
                 onClick={closeMenu}
               >
                 Skills
@@ -73,7 +82,11 @@ function Header() {
             <li>
               <NavLink
                 to="/#projects"
-                className="block rounded px-3 py-2 text-white hover:bg-gray-700 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-500"
+                className={({ isActive }) =>
+                  `block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500 ${
+                    isActive ? "text-green-800" : "bg-blue-700"
+                  }`
+                }
                 onClick={closeMenu}
               >
                 Projects
@@ -86,7 +99,11 @@ function Header() {
                   closeDropdown();
                   closeMenu();
                 }}
-                className="block rounded px-3 py-2 text-white hover:bg-gray-700 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-500"
+                className={({ isActive }) =>
+                  `block rounded px-3 py-2 text-white md:bg-transparent md:p-0 md:hover:text-blue-500 ${
+                    isActive ? "text-green-800" : "bg-blue-700"
+                  }`
+                }
               >
                 Contacts
               </NavLink>
