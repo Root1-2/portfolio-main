@@ -68,7 +68,7 @@ function Header() {
                   handleActiveClass(e);
                   closeMenu();
                 }}
-                className="nav-item block rounded px-3 py-2 md:bg-transparent md:p-0 md:hover:text-blue-500"
+                className="nav-item block rounded px-3 py-2 text-blue-800 md:bg-transparent md:p-0 md:hover:text-blue-500"
               >
                 Landing
               </NavLink>
