@@ -24,7 +24,7 @@ function Contact() {
               <Input nameId="email" placeholder="Email Address" />
               <Input nameId="phoneNumber" placeholder="Phone Number" />
               <div className="w-full">
-                <Input placeholder="Message" type="textarea" />
+                <Input nameId="message" placeholder="Message" type="textarea" />
               </div>
 
               <button className="mb-3 rounded-full border border-slate-200 px-5 py-3 transition hover:bg-purple-900 sm:px-10 sm:py-5">
