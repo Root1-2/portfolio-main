@@ -1,4 +1,4 @@
-function Input({ placeholder, type = "text" }) {
+function Input({ placeholder, type = "text", nameId }) {
   return type === "textarea" ? (
     <textarea
       placeholder={placeholder}
@@ -6,6 +6,8 @@ function Input({ placeholder, type = "text" }) {
     />
   ) : (
     <input
+      name={nameId}
+      id={nameId}
       type={type}
       placeholder={placeholder}
       className="w-72 rounded-lg border border-blue-300 bg-transparent px-3 py-5 text-white"

@@ -19,10 +19,10 @@ function Contact() {
               Get In Touch
             </p>
             <div className="mx-3 flex flex-wrap gap-3 sm:gap-10">
-              <Input placeholder="First Name" />
-              <Input placeholder="Last Name" />
-              <Input placeholder="Email Address" />
-              <Input placeholder="Phone Number" />
+              <Input nameId="firstName" placeholder="First Name" />
+              <Input nameId="lastName" placeholder="Last Name" />
+              <Input nameId="email" placeholder="Email Address" />
+              <Input nameId="phoneNumber" placeholder="Phone Number" />
               <div className="w-full">
                 <Input placeholder="Message" type="textarea" />
               </div>
