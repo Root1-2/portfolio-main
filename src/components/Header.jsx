@@ -25,12 +25,9 @@ function Header() {
   };
 
   function handleActiveClass(e) {
-    // Remove 'text-green-800' from all links
     document.querySelectorAll(".nav-item").forEach((link) => {
       link.classList.remove("text-blue-800", "text-white");
     });
-
-    // Add 'text-green-800' to the clicked link
     e.currentTarget.classList.add("text-blue-800");
   }
 
