@@ -11,6 +11,11 @@ const subskills = [
   },
   {
     for: "React",
+    name: "Redux",
+    imgPath: "/subskills/redux.svg",
+  },
+  {
+    for: "React",
     name: "Context API",
     imgPath: "/subskills/cApi.png",
   },
@@ -23,11 +28,6 @@ const subskills = [
     for: "React",
     name: "Styled Components",
     imgPath: "/subskills/sComp.png",
-  },
-  {
-    for: "React",
-    name: "Redux",
-    imgPath: "/subskills/redux.svg",
   },
   {
     for: "JavaScript",
@@ -78,6 +78,11 @@ const subskills = [
     for: "Database",
     name: "PostgreSQL",
     imgPath: "/subskills/postgresql.png",
+  },
+  {
+    for: "Database",
+    name: "Amazon RDS",
+    imgPath: "/subskills/rds.png",
   },
   {
     for: "Laravel",
